@@ -38,7 +38,7 @@ setup(
     packages=find_packages(exclude=("tests", )),
     package_data={},
     python_requires='>=3.5, <4',  # assume Python 4 will break
-    install_requires=['botocore', 'packaging', 'python-dateutil', 'pydot'],
+    install_requires=['botocore', 'packaging', 'python-dateutil', 'pydot', 'rich', 'neo4j'],
     entry_points={
         'console_scripts': [
             'pmapper = principalmapper.__main__:main'
