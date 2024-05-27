@@ -1,6 +1,7 @@
 # Ignore Python artifacts
 *.swp
 *.pyc
+/principalmapper.egg-info
 
 # Ignore image artifacts
 *.png
